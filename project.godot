@@ -11,12 +11,9 @@ config_version=5
 [application]
 
 config/name="2DRPG"
+run/main_scene="uid://dl5kgxhpqgt2d"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
-
-[autoload]
-
-MCPRuntimeProbe="*res://addons/godot_mcp/runtime/mcp_runtime_probe.gd"
 
 [display]
 
